@@ -21,7 +21,7 @@ nav {
 .nav-items {
 	width: 100%;
 	margin: 38px 0 0 423px;
-	height: 105px;
+	height: inherit;
 }
 
 .nav-items > li {
@@ -81,6 +81,7 @@ nav {
 
 .products-group {
 	background-image: url('../images/products_group_02.png');
+	background-repeat: no-repeat;
 	height: 570px;
 	width: 390px;
 	display: inline-block;
@@ -93,9 +94,60 @@ nav {
 	height: 93px;
 	background-image: url('../images/guarantee_banner_02.png');
 	margin-top: -285px;
+	background-repeat: no-repeat;
 }
 
 .background-image-setting {
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@media (max-width: 960px) {
+
+	.jumbotron { 
+		width: 960px;
+		background-size: 100%;
+	}
+
+	nav {
+		height: 105px;
+		width: 960px;
+		background-size: 100%;
+	}
+
+	.nav-items {
+		margin: 23px 0 0 290px;
+	}
+
+	.nav-items > li {
+		margin-right: 5px;
+		height: 28px;
+		width: 160px;
+		background-size: 100%;
+	}
+
+	.main-grid {
+		margin: 100px 0 0 0;
+	}
+
+	.products-group {
+		height: 400px;
+		width: 220px;
+		background-size: 100%;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+
+	.call-to-action {
+		height: 280px;
+		width: 551px;
+		background-size: contain;
+		margin-bottom: 167px;
+	}
+
+	.guarantee-banner {
+		height: 93px;
+		margin-top: -260px;
+		background-size: contain;
+	}
 }
