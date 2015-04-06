@@ -1,0 +1,101 @@
+body, html { margin: 0; }
+
+.jumbotron { 
+	background-image: url('../images/background_02.png'); 
+	height: 708px;
+	border: 1px solid transparent;
+	padding-bottom: 80px;
+	width: 1535px;
+	margin: 0 auto;
+}
+
+nav {
+	height: 105px;
+	position: fixed;
+	background-image: url('../images/nav_background_01.png');
+	background-repeat: no-repeat;
+	z-index: 100;
+	width: 100%;
+}
+
+.nav-items {
+	width: 100%;
+	margin: 38px 0 0 423px;
+	height: 105px;
+}
+
+.nav-items > li {
+	margin-right: 10px;
+	height: 48px;
+	width: 264px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+}
+
+.nav-items > li:nth-child(1) {
+	background-image: url('../images/select_nav_03.png');
+}
+
+.nav-items > li:nth-child(2) {
+	background-image: url('../images/free_nav_05.png');
+}
+
+.nav-items > li:nth-child(3) {
+	background-image: url('../images/supply_nav_07.png');
+}
+
+.nav-items > li:nth-child(4) {
+	background-image: url('../images/checkout_nav_09.png');
+}
+
+.nav-items > li:nth-child(1):hover {
+	background-image: url('../images/select_active_nav_03.jpg');
+}
+
+.nav-items > li:nth-child(2):hover {
+	background-image: url('../images/free_active_nav_05.jpg');
+}
+
+.nav-items > li:nth-child(3):hover {
+	background-image: url('../images/supply_active_nav_07.jpg');
+}
+
+.nav-items > li:nth-child(4):hover {
+	background-image: url('../images/checkout_active_nav_09.png');
+}
+
+.main-grid {
+	margin: 158px 0 0 0;
+}
+
+.call-to-action {
+	background-image: url('../images/call_to_action.jpg');
+	height: 450px;
+	width: 721px;
+	position: relative;
+	/*border: 1px solid black;*/
+	display: inline-block;
+	margin-bottom: 142px;
+}
+
+.products-group {
+	background-image: url('../images/products_group_02.png');
+	height: 570px;
+	width: 390px;
+	display: inline-block;
+	background-size: cover;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.guarantee-banner {
+	height: 93px;
+	background-image: url('../images/guarantee_banner_02.png');
+	margin-top: -285px;
+}
+
+.background-image-setting {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
