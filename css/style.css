@@ -284,6 +284,7 @@ nav {
 		margin: -88px 0 0 3px;
 		z-index: 200;
 		position: absolute;
+		pointer-events: none;
 	}
 
 	.main-grid {
