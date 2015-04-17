@@ -72,12 +72,50 @@ nav {
 }
 
 .call-to-action {
-	background-image: url('../images/call_to_action.jpg');
+	background-image: url('../images/banner_background_03.png');
 	height: 450px;
 	width: 721px;
 	position: relative;
 	display: inline-block;
 	margin-bottom: 142px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.adam-quote {
+	background-image: url('../images/adam_quote_03.png');
+	height: 138px;
+	width: 570px;
+	margin: 38px auto 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cta-button {
+	background-image: url('../images/cta_button_03.png');
+	height: 69px;
+	width: 315px;
+	margin: 40px auto 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cta-button-text {
+	background-image: url('../images/cta_button_text_03.png');
+	background-position: 50% 20%;
+	height: 40px;
+	width: 210px;
+	position: absolute;
+	margin: 24px 0 5px 55px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.limited-time-text {
+	background-image: url('../images/limited_time_text_03.png');
+	height: 91px;
+	width: 407px;
+	margin: 34px auto 0 auto;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -99,8 +137,10 @@ nav {
 
 .guarantee-banner {
 	height: 93px;
+	width: 1535px;
+	position: relative;
 	background-image: url('../images/guarantee_banner_02.png');
-	margin-top: -285px;
+	margin: -162px auto 0 auto;
 	background-repeat: no-repeat;
 }
 
@@ -147,10 +187,38 @@ nav {
 		margin-bottom: 167px;
 	}
 
+	.adam-quote {	
+		height: 88px;
+		width: 365px;
+		margin: 24px 0 0 43px;
+		position: relative;
+		background-size: contain;
+	}
+
+	.cta-button {
+		height: 44px;
+		width: 201px;
+		margin: 23px 0 0 123px;
+		background-size: contain;
+	}
+
+	.cta-button-text {
+		height: 24px;
+		margin: 14px 0 5px -4px;
+	}
+
+	.limited-time-text {
+		height: 59px;
+		width: 264px;
+		margin: 23px 0 0 91px;
+		background-size: contain;
+	}
+
 	.guarantee-banner {
 		height: 93px;
-		margin-top: -260px;
+		margin-top: -399px;
 		background-size: contain;
+		width: 960px;
 	}
 }
 
@@ -179,6 +247,10 @@ nav {
 	}
 
 	.main-grid {
+		display: none;
+	}
+
+	.guarantee-banner {
 		display: none;
 	}
 
