@@ -229,6 +229,7 @@ nav {
 		width: 768px;
 		background-size: 100%;
 		height: 344px;
+		z-index: 50;
 	}
 
 	nav {
@@ -246,22 +247,51 @@ nav {
 		width: 140px;
 	}
 
+	.call-to-action {
+		background-image: url('../images/tablet_banner_background_03.png');
+		height: 188px;
+		width: 442px;
+		margin: -30px 0px 0 50px;
+		position: absolute;
+		z-index: 100;
+	}
+
+	.adam-quote {
+		margin: 13px 0 0 100px;
+		height: 77px;
+  		width: 365px;	
+	}
+
+	.cta-button {
+		margin: 10px 0 0 176px;
+		height: 35px;
+	}
+
+	.cta-button-text {
+		margin: 13px 0 5px -24px;
+		height: 19px;
+	}
+
+	.limited-time-text {
+		margin: 10px 0 0 168px;
+		height: 39px;
+	}
+
+	.products-group {
+		background-image: url('../images/tablet_products_02.png');
+		height: 330px;
+		width: 326px;
+		margin: -88px 0 0 3px;
+		z-index: 200;
+		position: absolute;
+	}
+
 	.main-grid {
-		display: none;
+		height: 200px;
 	}
 
 	.guarantee-banner {
 		display: none;
-	}
-
-	.tablet-prod-cta {
-		background-image: url(../images/break_prod_cta_02.png);
-		background-repeat: no-repeat;
-		height: 395px;
-	  	margin: 16px 0 0 0;
-	  	width: 465px;
-		background-size: contain;
-		display: inline-block;
 	}
 
 	.tablet-guarantee-banner {
@@ -269,6 +299,7 @@ nav {
 		background-size: contain;
 		background-repeat: no-repeat;
 		height: 93px;
-		margin-top: -140px;
+		margin: -144px auto 0 auto;
+		width: 768px;
 	}	
 }
